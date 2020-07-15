@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+<html> 
+  
+<body style="text-align:center;"> 
+    <h1>   
+            
+        </h1> 
+  
+    <h2> 
+          
+  </h2> 
+  
+    <p> 
+      
+  </p> 
+  
+    Name: 
+    <input type="text"
+           id="myText"
+           > 
+           <input type="text"
+           id="myTextz"
+           > 
+  
+    <button type="button" 
+            onclick="myFunction()"> 
+      Try it 
+  </button> 
+  
+    <p id="demo"></p> 
+    <p id="demos"></p> 
+  
+    <script> 
+        // Here the value is stored in new variable x  
+  
+        function myFunction() { 
+            var x =  
+                document.getElementById("myText").value; 
+                var y =  
+                document.getElementById("myTextz").value;  
+            document.getElementById( 
+              "demo").innerHTML = x; 
+              document.getElementById( 
+              "demos").innerHTML = y; 
+        } 
+    </script> 
+</body> 
+  
+</html> 
